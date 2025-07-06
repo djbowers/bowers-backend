@@ -1,0 +1,21 @@
+{
+  "name": "bowers-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "diff-db": "npx supabase db diff",
+    "gen": "npx supabase gen types typescript --local --schema public > types/supabase.ts"
+  },
+  "keywords": [
+    "backend",
+    "supabase",
+    "api",
+    "side-projects"
+  ],
+  "author": "DJ Bowers",
+  "license": "ISC",
+  "description": "Backend project for managing Supabase instances across multiple frontend side projects",
+  "dependencies": {
+    "supabase": "^2.30.4"
+  }
+}
